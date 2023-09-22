@@ -31,7 +31,7 @@ Among these devices is the standout "Super Pi"—a Raspberry Pi equipped with 8G
 
 ### Monitoring and Reliability
 
-A Raspberry Pi Pico is seamlessly integrated into the system to monitor its health. This microcontroller pings the servers every 3 minutes as a "keep-alive," ensuring uninterrupted and efficient operations.
+A Raspberry Pi Pico W is seamlessly integrated into the system to monitor its health. This microcontroller pings the servers every 3 minutes as a "keep-alive," ensuring uninterrupted and efficient operations.
 
 ### Power and Cooling
 
