@@ -45,7 +45,7 @@ The AMD Ryzen 5 6-core CPU with Simultaneous Multi-Threading (SMT) offers an imp
 
 ### Diverse Storage Options
 
-The 250GB NVMe SSD ensures rapid access to frequently used data. Additionally, two 1TB WD Black HDDs in a RAID 0 configuration offer ample storage space with enhanced performance, though it's worth noting that this setup does not provide data redundancy.
+The WD Black SN770 1TB M.2 NVMe SSD ensures rapid access to frequently used data. Additionally, two 1TB WD Black HDDs in a RAID 0 configuration offer ample storage space with enhanced performance, though it's worth noting that this setup does not provide data redundancy.
 
 ### Graphics and Cooling
 
