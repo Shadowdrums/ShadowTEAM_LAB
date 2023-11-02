@@ -41,7 +41,7 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 
 ### High Computing Power
 
-The AMD Ryzen 5 6-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 32GB of DDR4 RAM.
+The AMD Ryzen 5 6-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 64GB of DDR4 RAM.
 
 ### Diverse Storage Options
 
@@ -49,7 +49,7 @@ The WD Black SN770 1TB M.2 NVMe SSD ensures rapid access to frequently used data
 
 ### Graphics and Cooling
 
-The 1650Ti MSI GPU affords the potential for GPU-accelerated computing tasks. Coupled with seven case fans and a tower cooler, this guarantees that every component maintains optimal temperature ranges.
+The Zotac Geforce 3060 RTX GPU affords the potential for GPU-accelerated computing tasks. Coupled with seven case fans and a tower cooler, this guarantees that every component maintains optimal temperature ranges.
 
 ## Laptop as Direct-Attached Storage (DAS) and Windows Server
 
