@@ -41,7 +41,7 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 
 ### High Computing Power
 
-The AMD Ryzen 5 6-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 64GB of DDR4 RAM.
+The AMD Ryzen 5 6-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 64GB of DDR4 RAM (T-Force Vulvan Z 4 16GB RAM Cards).
 
 ### Diverse Storage Options
 
