@@ -167,38 +167,10 @@ This project showcases the creation of a custom router using a Raspberry Pi 4B w
 - **Pico W Keep-Alive**:
   - The Pico W is connected to the Pi router via its internal WiFi card. It serves as a keep-alive mechanism for the SSH server, ensuring continuous connectivity even in the event of network disruptions.
 
-### Setup Instructions
-
-1. **Installing and Setting up OpenWRT**
-
-   - For detailed guidance on installing and setting up OpenWRT on your Raspberry Pi 4B (2GB), refer to [NetworkChuck's YouTube video](https://youtu.be/jlHWnKVpygw?si=IynAIzmYvfIfmMXd) which provides an excellent step-by-step walkthrough.
-
-2. **Hardware Assembly**
-   - Attach the Cana Kit external WiFi adapter to the Raspberry Pi's USB port.
-   - Connect the Pi's internal WiFi card to the main router for internet access.
-   - Connect devices requiring wired connections to the TP-Link Ethernet switch.
-
-3. **Software Configuration**
-   - Follow the official documentation to install OpenWRT on the Raspberry Pi 4B (2GB).
-   - Configure wireless networks and network interfaces for optimal performance.
-   - Set up port forwarding rules to allow external access.
-
-4. **Temperature Regulation**
-   - Ensure the case fan is securely connected to the Raspberry Pi.
-   - Adjust fan speed settings as necessary to maintain optimal operating temperatures.
-
-5. **Velcro Mounting**
-   - Attach the Raspberry Pi router securely to the top of the TP-Link switch using Velcro strips.
-   - Velcro mount the Pico W to the top of the router for enhanced functionality.
-
-6. **SSH Access Configuration**
-   - Set up a Raspberry Pi 4B (8GB) with Kali Linux and configure the SSH server.
-   - Establish port forwarding on the main router to facilitate external SSH access.
-
 ## Additional Considerations
 
 - **Network Configuration**
-  - All servers in the home lab run off the network managed by the Pi router, providing centralized control and security.
+- All servers in the home lab run off the network managed by the Pi router, providing centralized control and security.
   
 - Keep the system updated with the latest security patches to ensure optimal performance and security.
 - Regularly monitor the Raspberry Pi's temperature and adjust fan settings if necessary to prevent overheating.
