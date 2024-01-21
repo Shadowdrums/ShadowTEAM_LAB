@@ -72,6 +72,40 @@ Windows 10 Pro runs on both the desktop and the laptop, enhancing the home lab's
 
 The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to their specific roles, further adding to the system's adaptability and specialized nature.
 
+## Additional Servers
+
+### Testing Server
+
+#### Specifications
+- **Motherboard:** ASUS P5N-D
+- **CPU:** Intel Xeon X5460 (Quad-Core server cpu)
+- **RAM:** 8GB (4 x 2GB DDR2 800Mhz server RAM cards)
+- **GPU:** NVIDIA GeForce GT 1030 (for GUI)
+- **Storage:** 320GB W_D Black Hard Drive
+- **Power Supply:** 600W
+- **Case:** Packard Bell Pack Mate PC Case
+- **Cooling:** Water Cooling for the CPU with single 120mm fan radiator
+- **Operating System:** Linux Ubuntu 22.02.3-Server-x86x64-amd64
+
+This server is used as a test bench before moving on to the other servers for production and application. The CPU has had a slight overclock for a 9.69% performance boost.
+
+### GPU-AI-Server
+
+#### Specifications
+- **Motherboard:** M-ATX Gigabyte GA-B150M-D3H
+- **CPU:** Intel Core i5-6500 (4 cores) 3.6GHz
+- **RAM:** Corsair DDR4 2400MHz, 2x8GB (16GB in total)
+- **Storage:**
+  - 1TB WD Blue 2.5" SATA SSD
+  - 1TB Apple 2.5" HDD
+- **GPU:** Gigabyte RTX 4060 OC (overclocked) 8GB Low Profile
+- **Power Supply:** EVGA 600W
+- **Cooling:** Deepcool Digital-temperature-display Tower Cooler
+- **Case:** Open mining case for ease of access
+- **Operating System:** Ubuntu Server OS
+
+This server is for developing AI and other software that requires GPU acceleration.
+
 ## Conclusion
 
 To merely label this home lab as a collection of Raspberry Pis and PCs would be a gross simplification. It stands as a cohesive, highly adaptable computing ecosystem crafted with profound insights into hardware, software, networking, and cybersecurity. Whether the need revolves around cybersecurity research, advanced networking, or general-purpose computing, this home lab presents the resources, flexibility, and security to tackle virtually any IT-oriented challenge.
