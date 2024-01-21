@@ -85,9 +85,10 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 - **Power Supply:** 600W
 - **Case:** Packard Bell Pack Mate PC Case
 - **Cooling:** Water Cooling for the CPU with single 120mm fan radiator
-- **Operating System:** Ubuntu Server OS
+- **Operating System:** Linux Ubuntu 22.02.3-Server-x86x64-amd64
 
-This server is used as a test bench before moving on to the other servers for production and application. The CPU has had a slight overclock for a 9.69% performance boost.
+##### Use Case:
+This server functions as a test bench before moving on to the other servers for production and application. The CPU has had a slight overclock for a 9.69% performance boost.
 
 ### GPU-AI-Server
 
@@ -104,7 +105,23 @@ This server is used as a test bench before moving on to the other servers for pr
 - **Case:** Open mining case for ease of access
 - **Operating System:** Ubuntu Server OS
 
-This server is for developing AI and other software that requires GPU acceleration.
+##### Use Case:
+This server is dedicated to developing AI and other software that requires GPU acceleration.
+
+### Super Pi (Main Server)
+
+#### Specifications
+- **CPU:** Broadcom BCM2711, Quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
+- **RAM:** 8GB LPDDR4-3200 SDRAM
+- **Storage:** 1TB SATA3 M.2 SSD
+- **Operating System:** Kali Linux Purple (Customized)
+
+##### Use Case:
+The Super Pi serves as the main server and the primary gateway into the home lab network via SSH for all devices. It handles various tasks such as file storage, backup management, and network administration. Its SSH capabilities allow secure access and control over the entire home lab infrastructure.
+
+### Network Storage Configuration
+
+All servers, including the Super Pi, are attached over the network as storage drives to the main PC. This setup is utilized for backing up files on external drives, providing redundancy and secure backups.
 
 ## Conclusion
 
