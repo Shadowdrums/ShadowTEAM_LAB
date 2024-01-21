@@ -84,11 +84,11 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 - **Storage:** 320GB W_D Black Hard Drive
 - **Power Supply:** 600W
 - **Case:** Packard Bell Pack Mate PC Case
-- **Cooling:** Water Cooling for the CPU with single 120mm fan radiator
+- **Cooling:** Water Cooling for the CPU with a single 120mm fan radiator
 - **Operating System:** Linux Ubuntu 22.02.3-Server-x86x64-amd64
 
 ##### Use Case:
-This server functions as a test bench before moving on to the other servers for production and application. The CPU has had a slight overclock for a 9.69% performance boost.
+This server functions as a test bench before moving on to the other servers for production and application. The CPU has had a slight overclock for a 9.69% performance boost. It is crucial for testing and validating applications before deployment.
 
 ### GPU-AI-Server
 
@@ -106,7 +106,7 @@ This server functions as a test bench before moving on to the other servers for 
 - **Operating System:** Ubuntu Server OS
 
 ##### Use Case:
-This server is dedicated to developing AI and other software that requires GPU acceleration.
+This server is dedicated to developing AI and other software that requires GPU acceleration. It significantly accelerates AI model training and other GPU-intensive tasks, contributing to faster development cycles.
 
 ### Super Pi (Main Server)
 
