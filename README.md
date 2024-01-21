@@ -85,7 +85,7 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 - **Power Supply:** 600W
 - **Case:** Packard Bell Pack Mate PC Case
 - **Cooling:** Water Cooling for the CPU with single 120mm fan radiator
-- **Operating System:** Linux Ubuntu 22.02.3-Server-x86x64-amd64
+- **Operating System:** Ubuntu Server OS
 
 This server is used as a test bench before moving on to the other servers for production and application. The CPU has had a slight overclock for a 9.69% performance boost.
 
