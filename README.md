@@ -114,7 +114,7 @@ This server is dedicated to developing AI and other software that requires GPU a
 - **CPU:** Broadcom BCM2711, Quad-core Cortex-A72 (ARM v8 64-bit SoC) @ 1.5GHz
 - **RAM:** 8GB LPDDR4-3200 SDRAM
 - **Storage:** 1TB SATA3 M.2 SSD
-- **Operating System:** Raspbian (Customized)
+- **Operating System:** kali linux purple (Customized)
 
 ##### Use Case:
 The Super Pi serves as the main server and the primary gateway into the home lab network via SSH for all devices. It handles various tasks such as file storage, backup management, and network administration. Its SSH capabilities allow secure access to other servers and devices within the network.
