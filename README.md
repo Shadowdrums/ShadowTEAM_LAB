@@ -41,7 +41,7 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 
 ### High Computing Power
 
-The AMD Ryzen 5 3600 6-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 64GB of DDR4 RAM (T-Force Vulcan Z, 4 16GB RAM Cards), and powered by a 850W powersupply offering plenty 
+The AMD Ryzen 5 3600 6-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 64GB of DDR4 RAM (Trident Z Royal, 4 16GB 3600MT/2 RAM Cards), and powered by a 850W powersupply offering plenty 
 of power.
 
 ### Diverse Storage Options
@@ -95,7 +95,7 @@ This server functions as a test bench before moving on to the other servers for 
 #### Specifications
 - **Motherboard:** M-ATX Gigabyte GA-B150M-D3H
 - **CPU:** Intel Core i5-6500 (4 cores) 3.6GHz
-- **RAM:** Corsair DDR4 2400MHz, 2x8GB (16GB in total)
+- **RAM:** T-Force Vulcan Z DDR4, 4x16GB RAM Cards
 - **Storage:**
   - 1TB WD Blue 2.5" SATA SSD
   - 1TB Apple 2.5" HDD
@@ -113,7 +113,10 @@ This server is dedicated to developing AI and other software that requires GPU a
 #### Specifications
 - **CPU:** Broadcom BCM2711, Quad-core Cortex-A72 (ARM v8 64-bit SoC) @ 1.5GHz
 - **RAM:** 8GB LPDDR4-3200 SDRAM
+- **Boot Device:** 128GB Sandisk Extreme micro SD
 - **Storage:** 1TB SATA3 M.2 SSD
+- **Case:** Pironman pi tower case with M.2 HAT and system health display
+- **Cooling:** Mini tower cooler with Noctua 40x40x10mm case fan
 - **Operating System:** kali linux purple (Customized)
 
 ##### Use Case:
