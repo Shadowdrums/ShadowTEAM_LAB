@@ -39,6 +39,16 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 
 ## Main Desktop: The Control Center
 
+- CPU: AMD Ryzen 5 3600 (6-core, SMT)
+- RAM: 64GB DDR4 (Trident Z Royal, 4x16GB, 3600MT/s)
+- Storage:
+- 1TB WD Black SN770 M.2 NVMe SSD
+- 2x 1TB WD Black HDDs in RAID 1
+- GPU: Zotac Geforce 3060 RTX
+- Power Supply: 850W
+- Tower cooler
+- 7 case fans
+
 ### High Computing Power
 
 The AMD Ryzen 5 3600 6-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 64GB of DDR4 RAM (Trident Z Royal, 4 16GB 3600MT/s RAM Cards), and powered by a 850W powersupply offering plenty 
@@ -178,7 +188,7 @@ This project showcases the creation of a custom router using a Raspberry Pi 4B w
 - Keep the system updated with the latest security patches to ensure optimal performance and security.
 - Regularly monitor the Raspberry Pi's temperature and adjust fan settings if necessary to prevent overheating.
 
-- both the testing-server and GPU-AI-server have Wake-On-LAN enabled in Bios that users from the main server can use
+- Both the testing-server and GPU-AI-server have Wake-On-LAN enabled in Bios that users from the main server can use
   to turn on the servers as they need them to extend server life and reduce energy costs.
 
 ## Conclusion
