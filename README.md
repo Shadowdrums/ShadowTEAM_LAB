@@ -178,6 +178,9 @@ This project showcases the creation of a custom router using a Raspberry Pi 4B w
 - Keep the system updated with the latest security patches to ensure optimal performance and security.
 - Regularly monitor the Raspberry Pi's temperature and adjust fan settings if necessary to prevent overheating.
 
+- both the testing-server and GPU-AI-server have Wake-On-LAN enabled in Bios that users from the main server can use
+  to turn on the servers as they need them to extend server life and reduce energy costs.
+
 ## Conclusion
 
 To merely label this home lab as a collection of Raspberry Pis and PCs would be a gross simplification. It stands as a cohesive, highly adaptable computing ecosystem crafted with profound insights into hardware, software, networking, and cybersecurity. Whether the need revolves around cybersecurity research, advanced networking, or general-purpose computing, this home lab presents the resources, flexibility, and security to tackle virtually any IT-oriented challenge.
