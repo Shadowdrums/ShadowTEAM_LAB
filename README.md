@@ -39,7 +39,7 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 
 ## Main Desktop: The Control Center
 
-- CPU: AMD Ryzen 5 3600 (6-core, SMT)
+- CPU: AMD Ryzen 7 5700X (8-core, SMT)
 - RAM: 64GB DDR4 (Trident Z Royal, 4x16GB, 3600MT/s)
 - Storage:
 - 1TB WD Black SN770 M.2 NVMe SSD
@@ -51,7 +51,7 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 
 ### High Computing Power
 
-The AMD Ryzen 5 3600 6-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 64GB of DDR4 RAM (Trident Z Royal, 4 16GB 3600MT/s RAM Cards), and powered by a 850W powersupply offering plenty 
+The AMD Ryzen 7 5700X 8-core CPU with Simultaneous Multi-Threading (SMT) offers an impressive amount of processing power, further complemented by a substantial 64GB of DDR4 RAM (Trident Z Royal, 4 16GB 3600MT/s RAM Cards), and powered by a 850W powersupply offering plenty 
 of power.
 
 ### Diverse Storage Options
