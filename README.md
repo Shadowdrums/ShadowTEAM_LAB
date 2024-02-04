@@ -44,7 +44,7 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 - Storage:
 - 1TB WD Black SN770 M.2 NVMe SSD
 - 2x 1TB WD Black HDDs in RAID 1
-- GPU: Zotac Geforce 3060 RTX
+- GPU: Zotac Geforce 3060 RTX OC 12GB VRAM
 - Power Supply: 850W
 - Tower cooler
 - 7 case fans
