@@ -39,6 +39,7 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 
 ## Main Desktop: The Control Center
 
+- Motherboard: B550M AORUS PRO-P
 - CPU: AMD Ryzen 7 5700X (8-core, SMT)
 - RAM: 64GB DDR4 (Trident Z Royal, 4x16GB, 3600MT/s)
 - Storage:
