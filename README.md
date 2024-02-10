@@ -93,8 +93,8 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 - **RAM:** 8GB (4 x 2GB DDR2 800Mhz server RAM cards)
 - **GPU:** NVIDIA GeForce GT 1030 (for GUI)
 - **Storage:** 320GB W_D Black Hard Drive
-- **Power Supply:** 600W
-- **Case:** Packard Bell Pack Mate PC Case
+- **Power Supply:** Thermaltake 600W
+- **Case:** Packard Bell Pack Mate 6420CD PC Case
 - **Cooling:** Water Cooling for the CPU with a single 120mm fan radiator
 - **Operating System:** Linux Ubuntu 22.02.3-Server-x86x64-amd64
 
@@ -106,7 +106,7 @@ This server functions as a test bench before moving on to the other servers for 
 #### Specifications
 - **Motherboard:** M-ATX Gigabyte GA-B150M-D3H
 - **CPU:** Intel Core i5-6500 (4 cores) 3.6GHz
-- **RAM:** T-Force Vulcan Z DDR4, 4x16GB RAM Cards
+- **RAM:** 64GB (T-Force Vulcan Z DDR4 2400MT/s), 4x16GB RAM Cards
 - **Storage:**
   - 1TB WD Blue 2.5" SATA SSD
   - 1TB Apple 2.5" HDD
