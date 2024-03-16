@@ -99,7 +99,7 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 - **Operating System:** Linux Ubuntu 22.02.3-Server-x86x64-amd64
 
 ##### Use Case:
-This server functions as a test bench before moving on to the other servers for production and application. The CPU has had a slight overclock for a 9.69% performance boost. It is crucial for testing and validating applications before deployment.
+This server functions as a test bench before moving on to the other servers for production and application. It is crucial for testing and validating applications before deployment.
 
 ### GPU-AI-Server
 
