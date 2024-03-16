@@ -88,14 +88,14 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 ### Testing Server
 
 #### Specifications
-- **Motherboard:** ASUS P5N-D
-- **CPU:** Intel Xeon X5460 (Quad-Core server cpu)
-- **RAM:** 8GB (4 x 2GB DDR2 800Mhz server RAM cards)
-- **GPU:** NVIDIA GeForce GT 1030 (for GUI)
-- **Storage:** 320GB W_D Black Hard Drive
-- **Power Supply:** Thermaltake 600W
-- **Case:** Packard Bell Pack Mate 6420CD PC Case
-- **Cooling:** Water Cooling for the CPU with a single 120mm fan radiator
+- **Motherboard:** M-ATX Gigabyte GA-B150M-D3H
+- **CPU:** Intel Core i5-6500 (4 cores) 3.6GHz
+- **RAM:** 16GB (2x8GB 2400MT/s Corsair)
+- **GPU:** NVIDIA Tesla K40c 12GB
+- **Storage:** 1 TB WD Blue SA510 2.5" SATA3 SSD
+- **Power Supply:** EVGA 650W
+- **Case:** Open Mining Case
+- **Cooling:** Deepcool Digital-temperature-display Tower Cooler
 - **Operating System:** Linux Ubuntu 22.02.3-Server-x86x64-amd64
 
 ##### Use Case:
@@ -104,17 +104,17 @@ This server functions as a test bench before moving on to the other servers for 
 ### GPU-AI-Server
 
 #### Specifications
-- **Motherboard:** M-ATX Gigabyte GA-B150M-D3H
-- **CPU:** Intel Core i5-6500 (4 cores) 3.6GHz
-- **RAM:** 64GB (T-Force Vulcan Z DDR4 2400MT/s), 4x16GB RAM Cards
-- **Storage:**
-  - 1TB WD Blue 2.5" SATA SSD
-  - 1TB Apple 2.5" HDD
+- **Motherboard:** ASUSTeK PRIME B550-PLUS AC-HES
+- **CPU:** AMD Ryzen 5 3600 (6 cores) @ 3.600GHz
+- **RAM:** 64GB (T-Force Vulcan Z DDR4 3200MT/s), 4x16GB RAM Cards
+- **Storage:** 1 TB WD Blue SA510 2.5" SATA3 SSD
 - **GPU:** Gigabyte RTX 4060 OC (overclocked) 8GB Low Profile
-- **Power Supply:** EVGA 600W
-- **Cooling:** Deepcool Digital-temperature-display Tower Cooler
+- **GPU2** Gigabyte GT 1030 (for GUI & troubleshooting)
+- **Expansion** dual port ethernet PCI-e expansion card (motherboard did not support Wake on LAN but supported Wake on PCI-e so expansion card is used more main netowrking and WoL)
+- **Power Supply:** ThermalTake 750W
+- **Cooling:** BeQuiet! Pure Rock 2 Tower Cooler
 - **Case:** Open mining case for ease of access
-- **Operating System:** Ubuntu Server OS
+- **Operating System:** Ubuntu Server 22.02 OS
 
 ##### Use Case:
 This server is dedicated to developing AI and other software that requires GPU acceleration. It significantly accelerates AI model training and other GPU-intensive tasks, contributing to faster development cycles.
