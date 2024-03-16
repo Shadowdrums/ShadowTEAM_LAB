@@ -110,7 +110,7 @@ This server functions as a test bench before moving on to the other servers for 
 - **Storage:** 1 TB WD Blue SA510 2.5" SATA3 SSD
 - **GPU:** Gigabyte RTX 4060 OC (overclocked) 8GB Low Profile
 - **GPU2** Gigabyte GT 1030 (for GUI & troubleshooting)
-- **Expansion** dual port ethernet PCI-e expansion card (motherboard did not support Wake on LAN but supported Wake on PCI-e so expansion card is used more main netowrking and WoL)
+- **Expansion** dual port ethernet PCI-e expansion card (motherboard did not support Wake on LAN but supported Wake on PCI-e so expansion card is used for netowrking and WoL)
 - **Power Supply:** ThermalTake 750W
 - **Cooling:** BeQuiet! Pure Rock 2 Tower Cooler
 - **Case:** Open mining case for ease of access
