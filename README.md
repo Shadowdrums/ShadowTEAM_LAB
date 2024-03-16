@@ -104,7 +104,7 @@ This server functions as a test bench before moving on to the other servers for 
 ### GPU-AI-Server
 
 #### Specifications
-- **Motherboard:** ASUSTeK PRIME B550-PLUS AC-HES
+- **Motherboard:** ATX ASUSTeK PRIME B550-PLUS AC-HES
 - **CPU:** AMD Ryzen 5 3600 (6 cores) @ 3.600GHz
 - **RAM:** 64GB (T-Force Vulcan Z DDR4 3200MT/s), 4x16GB RAM Cards
 - **Storage:** 1 TB WD Blue SA510 2.5" SATA3 SSD
