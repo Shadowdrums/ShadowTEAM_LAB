@@ -109,7 +109,7 @@ This server functions as a test bench before moving on to the other servers for 
 - **RAM:** 64GB (T-Force Vulcan Z DDR4 3200MT/s), 4x16GB RAM Cards
 - **Storage:** 1 TB WD Blue SA510 2.5" SATA3 SSD
 - **GPU:** Gigabyte RTX 4060 OC (overclocked) 8GB Low Profile
-- **GPU2** Gigabyte GT 1030 (for GUI & troubleshooting)
+- **GPU2** Gigabyte RTX 4060 OC 8GB Low Profile
 - **Expansion** dual port ethernet PCI-e expansion card (motherboard did not support Wake on LAN but supported Wake on PCI-e so expansion card is used for netowrking and WoL)
 - **Power Supply:** ThermalTake 750W
 - **Cooling:** BeQuiet! Pure Rock 2 Tower Cooler
