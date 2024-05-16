@@ -45,7 +45,7 @@ The individual 20W power supplies and cooling solutions for each Raspberry Pi hi
 - Storage:
 - 1TB WD Black SN770 M.2 NVMe SSD
 - 2x 1TB WD Black HDDs in RAID 1
-- GPU: Zotac Geforce 3060 RTX OC 12GB VRAM
+- GPU: Gigabyte Geforce RTX 4060 Ti 16GB Vram
 - Power Supply: Corsair 850W
 - Be Quiet! Tower cooler
 - 7 case fans
@@ -61,7 +61,7 @@ The WD Black SN770 1TB M.2 NVMe SSD ensures rapid access to frequently used data
 
 ### Graphics and Cooling
 
-The Zotac Geforce 3060 RTX GPU affords the potential for GPU-accelerated computing tasks. Coupled with seven case fans and a tower cooler, this guarantees that every component maintains optimal temperature ranges.
+The Gigabyte Geforce RTX 4060 Ti GPU affords the potential for GPU-accelerated computing tasks. Coupled with seven case fans and a tower cooler, this guarantees that every component maintains optimal temperature ranges.
 
 ## Laptop as Direct-Attached Storage (DAS) and Windows Server
 
