@@ -106,7 +106,7 @@ This server functions as a test bench before moving on to the other servers for 
 #### Specifications
 - **Motherboard:** ATX ASUSTeK PRIME B550-PLUS AC-HES
 - **CPU:** AMD Ryzen 5 3600 (6 cores) @ 3.600GHz
-- **RAM:** 64GB (T-Force Vulcan Z DDR4 3200MT/s), 4x16GB RAM Cards
+- **RAM:** 64GB (T-Force Vulcan Z DDR4 3600MT/s), 4x16GB RAM Cards
 - **Storage:** 1 TB WD Black SN770 M.2 NVMe SSD
 - **GPU:** Gigabyte RTX 4060 OC (overclocked) 8GB Low Profile
 - **GPU2** Gigabyte RTX 4060 OC 8GB Low Profile
