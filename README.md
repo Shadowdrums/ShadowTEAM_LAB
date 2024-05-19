@@ -91,7 +91,7 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 - **Motherboard:** M-ATX Gigabyte GA-B150M-D3H
 - **CPU:** Intel Core i5-6500 (4 cores) 3.6GHz
 - **RAM:** 16GB (2x8GB 2400MT/s Corsair)
-- **GPU:** NVIDIA Tesla K40c 12GB
+- **GPU:** ZOTAC RTX 3060 OC 12GB
 - **Storage:** 1 TB WD Blue SA510 2.5" SATA3 SSD
 - **Power Supply:** EVGA 650W
 - **Case:** Open Mining Case
