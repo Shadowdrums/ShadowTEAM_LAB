@@ -147,7 +147,7 @@ The ASUS RT-AX82U AX5400 was selected for its superior performance and security 
 - Optimized Latency and Bandwidth: The router’s advanced QoS features prioritize critical tasks, ensuring smooth and responsive performance for SSH connections and server operations.
 
 ## Current Network Architecture
-- Hardlined Setup: The ASUS RT-AX82U is hardlined behind the primary household router, ensuring a secure and controlled network environment. All servers and devices are connected via a dedicated 5-port TP-Link unmanaged switch, providing stable and high-speed wired connections.
+- Hardlined Setup: The ASUS RT-AX82U is hardlined behind the primary household router, ensuring a secure and controlled network environment. All servers and devices are connected via a dedicated 5-port TP-Link unmanaged switch, providing stable and high-speed wired connections using CAT8 cables.
 
 - Centralized Management: The ASUS RT-AX82U now manages all internal network traffic, with the switch handling the connections between the servers and the router. This setup minimizes latency and maximizes the efficiency of data transfers.
 
