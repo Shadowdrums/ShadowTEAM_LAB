@@ -18,8 +18,15 @@ Welcome to a guided tour of one of the most comprehensive and advanced home lab 
 The cluster includes three Raspberry Pi 4 Model B devices, each boasting 8GB of RAM. One of these serves as the main external SSH connection server running Kali Linux Purple. This primary SSH server acts as a gateway, enabling users to connect to the other Raspberry Pis, including one running Ubuntu that serves as a general-purpose server, and another that is the powerhouse "Super Pi."
 
 ### Advanced SSH Tunneling and Networking
+The home lab network now leverages the ASUS RT-AX82U AX5400 Dual-Band WiFi 6 router for enhanced SSH tunneling and networking capabilities. Here's how the updated setup works:
 
-The intricacy of the SSH tunneling is worth noting. An external SSH connection targeting a 5-digit port on the main router is forwarded to a 4-digit port on a specialized Raspberry Pi 4 Model B with 2GB RAM running OpenWRT. This Raspberry Pi then forwards the connection to the main SSH server on port 22, creating a multi-layered, secure tunnel into the home lab network.
+- External SSH Connection: External SSH connections are directed to a high-numbered port on the main household router. The ASUS RT-AX82U, hardwired to the primary router, forwards these connections to the dedicated SSH server (Super Pi) within the home lab.
+
+- Secure Tunneling: The ASUS RT-AX82U provides a robust and secure tunnel for SSH traffic. With advanced QoS and AiProtection Pro features, it ensures that SSH connections are prioritized and protected from external threats.
+
+- Optimized Networking: All servers within the lab are connected to a 5-port TP-Link unmanaged switch, which is hardwired to the ASUS router. This setup minimizes latency and maximizes throughput, making remote access and server management seamless and efficient.
+
+- This updated network configuration offers a significant improvement over the previous Pi Router setup, providing higher speeds, enhanced security, and a more stable connection for all SSH and networking tasks within the lab.
 
 ### Specialized Roles for Each Pi
 
