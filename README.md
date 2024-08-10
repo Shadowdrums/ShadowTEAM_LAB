@@ -133,53 +133,27 @@ This server is dedicated to developing AI and other software that requires GPU a
 ##### Use Case:
 The Super Pi serves as the main server and the primary gateway into the home lab network via SSH for all devices. It handles various tasks such as file storage, backup management, and network administration. Its SSH capabilities allow secure access to other servers and devices within the network.
 
-### Network Storage Configuration
+# Network Configuration and Router Upgrade
+### Introduction
+The home lab network has been significantly enhanced with the upgrade from the custom Pi Router to the ASUS RT-AX82U AX5400 Dual-Band WiFi 6 router. This change provides a robust foundation for the lab’s advanced computing and networking needs.
 
-All servers, including the Super Pi, are configured as network-attached storage (NAS) devices for the main desktop. This setup is utilized for backing up files on external drives, providing redundancy and secure backups.
+### Why the ASUS RT-AX82U AX5400?
+The ASUS RT-AX82U AX5400 was selected for its superior performance and security features, which are essential for a high-demand lab environment:
 
-## Pi Router
+- High Performance: The ASUS RT-AX82U supports WiFi 6, delivering faster speeds, reduced latency, and better performance, especially in environments with multiple connected devices.
 
-### Purpose and Benefits
+- Advanced Security: With built-in AiProtection Pro, the router offers comprehensive protection against external threats, ensuring the security of sensitive operations like SSH tunneling.
 
-This custom router project was created with the primary goal of establishing a separate network dedicated to handling external SSH traffic. This setup offers several advantages:
+- Optimized Latency and Bandwidth: The router’s advanced QoS features prioritize critical tasks, ensuring smooth and responsive performance for SSH connections and server operations.
 
-- **Enhanced Security**: By segregating external SSH traffic from the main local network, you create an additional layer of security, minimizing potential risks associated with direct access to sensitive systems.
+## Current Network Architecture
+- Hardlined Setup: The ASUS RT-AX82U is hardlined behind the primary household router, ensuring a secure and controlled network environment. All servers and devices are connected via a dedicated 5-port TP-Link unmanaged switch, providing stable and high-speed wired connections.
 
-- **Optimized Network Performance**: Allocating a dedicated network for SSH traffic ensures that it doesn't compete with other activities on the main network, resulting in smoother, more reliable connections.
+- Centralized Management: The ASUS RT-AX82U now manages all internal network traffic, with the switch handling the connections between the servers and the router. This setup minimizes latency and maximizes the efficiency of data transfers.
 
-- **Isolation of Services**: The isolated network allows you to manage and monitor SSH connections separately, making it easier to identify and respond to any unusual activity.
+## Conclusion
+The transition to the ASUS RT-AX82U AX5400 has solidified the home lab’s network infrastructure, offering the speed, security, and stability needed for advanced computing tasks. The hardlined configuration ensures reliable connectivity, making the lab a powerful and secure environment for ongoing projects and experiments.
 
-- **Flexibility and Control**: This setup provides you with greater control over SSH access, allowing for specific configurations tailored to your needs.
-
-### Project Overview
-
-This project showcases the creation of a custom router using a Raspberry Pi 4B with 2GB of RAM, running the powerful OpenWRT operating system. This setup leverages the Raspberry Pi's capabilities alongside OpenWRT's robust networking features. It makes use of a Cana Kit external WiFi adapter for broadcasting a WiFi signal. Additionally, the internal WiFi card of the Pi connects to the main router for internet access. For wired connections, a 5-port unmanaged TP-Link Ethernet switch is integrated. To regulate temperature, a fan is included within the custom case. The Pi router is securely mounted on top of the switch using Velcro. Furthermore, a Pico W is Velcroed to the top of the router, providing essential functionality.
-
-### Key Features
-
-- **Hardware**:
-  - Raspberry Pi 4B (2GB)
-  - Cana Kit external WiFi adapter
-  - 5-port unmanaged TP-Link Ethernet switch
-  - Case with integrated fan
-  - Raspberry Pi Pico W
-
-- **Wireless Capabilities**:
-  - The Cana Kit adapter enables the broadcast of a WiFi signal.
-  - The Pi's internal WiFi card establishes a connection to the main router for internet access.
-
-- **Wired Networking**:
-  - A 5-port TP-Link switch provides reliable wired connections for devices.
-
-- **Temperature Regulation**:
-  - A dedicated fan is integrated into the custom case, ensuring optimal operating temperatures.
-
-- **Secure Mounting**:
-  - The Pi router is securely attached to the TP-Link switch using Velcro strips.
-  - A Pico W is Velcroed on top of the router, enhancing its capabilities.
-
-- **Pico W Keep-Alive**:
-  - The Pico W is connected to the Pi router via its internal WiFi card. It serves as a keep-alive mechanism for the SSH server, ensuring continuous connectivity even in the event of network disruptions.
 
 ## Additional Considerations
 
