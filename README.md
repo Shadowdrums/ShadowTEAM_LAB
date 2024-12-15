@@ -98,7 +98,7 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 #### Specifications
 - **Motherboard:** M-ATX Gigabyte GA-B150M-D3H
 - **CPU:** Intel Core i5-7500 (4 cores) 3.4GHz
-- **RAM:** 32GB (T-Force Vulcan Z DDR4 3600MT/s) 2x16GB Ram Cards
+- **RAM:** 64GB (T-Force Vulcan Z DDR4 3600MT/s), 4x16GB RAM Cards
 - **GPU:** ZOTAC RTX 3060 OC 12GB
 - **Storage:** 1 TB WD Blue SA510 2.5" SATA3 SSD
 - **Power Supply:** EVGA 650W
@@ -130,7 +130,7 @@ This server is dedicated to developing AI and other software that requires GPU a
 ### Dell PowerEdge T620 (AD DC Server)
 
 #### Specifications
-- **CPU:** 2x Intel Xeon E5-2697-V2 (12 cores, 24 threads each)
+- **CPU:** 2x Intel Xeon E5-2697-V2 (12 cores, 24 threads each), combined total: 24 cores 48 threads
 - **RAM:** 256GB DDR3 LRDIMM ECC Samsung (8x16GB, 1866MHz)
 - **Storage:** 1x 2TB HDD, 4x 500GB SATA SSDs in RAID 10
 - **GPU:** Nvidia Quadro M4000 (8GB)
