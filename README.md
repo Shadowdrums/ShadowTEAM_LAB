@@ -100,6 +100,7 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 - **CPU:** Intel Core i5-7500 (4 cores) 3.4GHz
 - **RAM:** 64GB (T-Force Vulcan Z DDR4 3600MT/s), 4x16GB RAM Cards
 - **GPU:** ZOTAC RTX 3060 OC 12GB
+- **Expansion:** Cisco UCSC Fiber Network Card UCSC-PCIE-CSC-02 dual port
 - **Storage:** 1 TB WD Blue SA510 2.5" SATA3 SSD
 - **Power Supply:** EVGA 650W
 - **Case:** Open Mining Case
@@ -117,8 +118,9 @@ This server functions as a test bench before moving on to the other servers for 
 - **RAM:** 64GB (T-Force Vulcan Z DDR4 3600MT/s), 4x16GB RAM Cards
 - **Storage:** 1 TB WD Black SN770 M.2 NVMe SSD
 - **GPU:** Gigabyte RTX 4060 OC (overclocked) 8GB Low Profile
-- **GPU2** Gigabyte RTX 4060 OC 8GB Low Profile
-- **Expansion** dual port ethernet PCI-e expansion card (motherboard did not support Wake on LAN but supported Wake on PCI-e so expansion card is used for netowrking and WoL)
+- **GPU2:** Gigabyte RTX 4060 OC 8GB Low Profile
+- **Expansion:** 1Gb dual port ethernet PCI-e expansion card (motherboard did not support Wake on LAN but supported Wake on PCI-e so expansion card is used for netowrking and WoL)
+- **Expansion 2:** Cisco UCSC Fiber Network Card UCSC-PCIE-CSC-02 dual port
 - **Power Supply:** ThermalTake 750W
 - **Cooling:** BeQuiet! Pure Rock 2 Tower Cooler
 - **Case:** Open mining case for ease of access
@@ -134,6 +136,8 @@ This server is dedicated to developing AI and other software that requires GPU a
 - **RAM:** 256GB DDR3 LRDIMM ECC Samsung (8x16GB, 1866MHz)
 - **Storage:** 1x 2TB HDD, 4x 500GB SATA SSDs in RAID 10
 - **GPU:** Nvidia Quadro M4000 (8GB)
+- **Expansion:** 1Gb  dual port ethernet PCI-e expansion card
+- **Expansion 2:** Intel X520-SR2 10Gb dual port E10G42BFSR
 - **Power Supply:** 750W
 - **Operating System:** Windows Server 2022
 
@@ -149,6 +153,7 @@ This server is dedicated to Active Directory (AD) Domain Controller (DC) pentest
 - **Storage:** 1TB 2.5" HDD
 - **GPU1:** Nvidia GTX 1060 6GB
 - **GPU2:** Nvidia RTX 2060 6GB
+- **Expansion:** Intel X520-SR2 10Gb dual port E10G42BFSR
 - **Power Supply:** Thermaltake 650W
 - **Case:** Open mining case
 - **Operating System:** Ubuntu Server 24.04 Headless
