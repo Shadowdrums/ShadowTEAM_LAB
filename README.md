@@ -138,7 +138,7 @@ This server is dedicated to developing AI and other software that requires GPU a
 - **Operating System:** Windows Server 2022
 
 #### Use Case:
-This server is dedicated to Active Directory (AD) Domain Controller (DC) pentesting and runs multiple virtual machines (VMs). It serves as a self-contained hacking lab, enabling extensive testing and experimentation. The server is also connected to the Cisco Nexus 3048 via 10Gb fiber while maintaining Ethernet for Wake-on-LAN (WoL).
+This server is dedicated to Active Directory (AD) Domain Controller (DC) pentesting and runs multiple virtual machines (VMs). It serves as a self-contained hacking lab, enabling extensive testing and experimentation. The server is also connected to the Cisco Nexus 3048 via 10Gb fiber.
 
 ### Web-Server
 
@@ -154,7 +154,7 @@ This server is dedicated to Active Directory (AD) Domain Controller (DC) pentest
 - **Operating System:** Ubuntu Server 24.04 Headless
 
 #### Use Case
-The Web-Server hosts an Onion site that provides free temporary Ubuntu containers that users can access and shell into with temporary credentials. Each container spawns per user, and when the user leaves, the container is deleted. This server also uses OpenWeb UI and Docker to host free AI on the Onion site. The Onion site also offers tech support and is continuously updated. It is connected to the Cisco Nexus 3048 via 10Gb fiber while maintaining Ethernet for Wake-on-LAN (WoL).
+The Web-Server hosts an Onion site that provides free temporary Ubuntu containers that users can access and shell into with temporary credentials. Each container spawns per user, and when the user leaves, the container is deleted. This server also uses OpenWeb UI and Docker to host free AI on the Onion site. The Onion site also offers tech support and is continuously updated. It is connected to the Cisco Nexus 3048 via 10Gb fiber.
 
 ### Super Pi (Main Server)
 
@@ -184,7 +184,7 @@ The ASUS RT-AX82U AX5400 was selected for its superior performance and security 
 - Optimized Latency and Bandwidth: The router’s advanced QoS features prioritize critical tasks, ensuring smooth and responsive performance for SSH connections and server operations.
 
 ## Current Network Architecture
-- Hardlined Setup: The ASUS RT-AX82U is hardlined behind the primary household router, ensuring a secure and controlled network environment. All servers and devices are connected via a dedicated 5-port TP-Link unmanaged switch, providing stable and high-speed wired connections using CAT8 cables.
+- Hardlined Setup: The ASUS RT-AX82U is hardlined behind the primary household router, ensuring a secure and controlled network environment. All servers and devices are connected via a dedicated Cisco Nexus 3048 rack mountable 48x1Gb port 4x10Gb SFP port switch, providing stable and high-speed wired connections using CAT8 and fiber optic cables.
 
 - Centralized Management: The ASUS RT-AX82U now manages all internal network traffic, with the switch handling the connections between the servers and the router. This setup minimizes latency and maximizes the efficiency of data transfers.
 
@@ -195,7 +195,7 @@ The transition to the ASUS RT-AX82U AX5400 has solidified the home lab’s netwo
 ## Additional Considerations
 
 - **Network Configuration**
-- All servers in the home lab run off the network managed by the Pi router, providing centralized control and security.
+- All servers in the home lab run off the network managed by the ASUS RT-AX82U router, providing centralized control and security.
   
 - Keep the system updated with the latest security patches to ensure optimal performance and security.
 - Regularly monitor the Raspberry Pi's temperature and adjust fan settings if necessary to prevent overheating.
