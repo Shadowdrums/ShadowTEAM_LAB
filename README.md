@@ -18,13 +18,14 @@ Welcome to a guided tour of one of the most comprehensive and advanced home lab 
 The cluster includes three Raspberry Pi 4 Model B devices, each boasting 8GB of RAM. One of these serves as the main external SSH connection server running Kali Linux Purple. This primary SSH server acts as a gateway, enabling users to connect to the other Raspberry Pis, including one running Ubuntu that serves as a general-purpose server, and another that is the powerhouse "Super Pi."
 
 ### Advanced SSH Tunneling and Networking
-The home lab network now leverages the ASUS RT-AX82U AX5400 Dual-Band WiFi 6 router for enhanced SSH tunneling and networking capabilities. Here's how the updated setup works:
+
+- The home lab network now leverages the ASUS RT-AX82U AX5400 Dual-Band WiFi 6 router for enhanced SSH tunneling and networking capabilities. Here's how the updated setup works:
 
 - External SSH Connection: External SSH connections are directed to a high-numbered port on the main household router. The ASUS RT-AX82U, hardwired to the primary router, forwards these connections to the dedicated SSH server (Super Pi) within the home lab.
 
 - Secure Tunneling: The ASUS RT-AX82U provides a robust and secure tunnel for SSH traffic. With advanced QoS and AiProtection Pro features, it ensures that SSH connections are prioritized and protected from external threats.
 
-- Optimized Networking: All servers within the lab are connected to a 5-port TP-Link unmanaged switch, which is hardwired to the ASUS router. This setup minimizes latency and maximizes throughput, making remote access and server management seamless and efficient.
+- Optimized Networking: All servers within the lab are connected to a Cisco Nexus 3048 network switch with 48 1Gb ports and 4 SFP+ 10Gb ports. The previous 4-port switch has been replaced with this more robust and high-performance solution. The Cisco Nexus 3048 switch has dual 400W PSUs and upgraded system fans with Noctua 40mm 12V PWM fans for quieter operation.
 
 - This updated network configuration offers a significant improvement over the previous Pi Router setup, providing higher speeds, enhanced security, and a more stable connection for all SSH and networking tasks within the lab.
 
@@ -106,7 +107,7 @@ The Raspberry Pis operate on Kali Linux, Ubuntu, and OpenWRT, each tailored to t
 - **Operating System:** Linux Ubuntu 22.02.3-Server-x86x64-amd64
 
 ##### Use Case:
-This server functions as a test bench before moving on to the other servers for production and application. It is crucial for testing and validating applications before deployment.
+This server functions as a test bench before moving on to the other servers for production and application. It is crucial for testing and validating applications before deployment.The Testing server is connected to the Cisco Nexus 3048 via a 10Gb fiber connection, while also maintaining an Ethernet connection for Wake-on-LAN (WoL).
 
 ### GPU-AI-Server
 
@@ -124,7 +125,20 @@ This server functions as a test bench before moving on to the other servers for 
 - **Operating System:** Ubuntu Server 22.02 OS
 
 ##### Use Case:
-This server is dedicated to developing AI and other software that requires GPU acceleration. It significantly accelerates AI model training and other GPU-intensive tasks, contributing to faster development cycles.
+This server is dedicated to developing AI and other software that requires GPU acceleration. It significantly accelerates AI model training and other GPU-intensive tasks, contributing to faster development cycles. The GPU-AI-server is also connected to the Cisco Nexus 3048 via 10Gb fiber while maintaining Ethernet for Wake-on-LAN (WoL).
+
+### Dell PowerEdge T620 (AD DC Server)
+
+#### Specifications
+- **CPU:** 2x Intel Xeon E5-2697-V2 (12 cores, 24 threads each)
+- **RAM:** 256GB DDR3 LRDIMM ECC (8x16GB, 1866MHz)
+- **Storage:** 1x 2TB HDD, 4x 500GB SATA SSDs in RAID 10
+- **GPU:** Nvidia Quadro M4000 (8GB)
+- **Power Supply:** 750W
+- **Operating System:** Windows Server 2022
+
+#### Use Case:
+This server is dedicated to Active Directory (AD) Domain Controller (DC) pentesting and runs multiple virtual machines (VMs). It serves as a self-contained hacking lab, enabling extensive testing and experimentation. The server is also connected to the Cisco Nexus 3048 via 10Gb fiber while maintaining Ethernet for Wake-on-LAN (WoL).
 
 ### Super Pi (Main Server)
 
