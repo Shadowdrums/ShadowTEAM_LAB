@@ -140,6 +140,22 @@ This server is dedicated to developing AI and other software that requires GPU a
 #### Use Case:
 This server is dedicated to Active Directory (AD) Domain Controller (DC) pentesting and runs multiple virtual machines (VMs). It serves as a self-contained hacking lab, enabling extensive testing and experimentation. The server is also connected to the Cisco Nexus 3048 via 10Gb fiber while maintaining Ethernet for Wake-on-LAN (WoL).
 
+### Web-Server
+
+#### Specifications
+- **Motherboard:** ASRock Z170A-X1/3.1
+- **CPU:** Intel i5-6500 (4 cores)
+- **RAM:** 32GB Corsair DDR4 2400MHz (4x8GB)
+- **Storage:** 1TB 2.5" HDD
+- **GPU1:** Nvidia GTX 1060 6GB
+- **GPU2:** Nvidia RTX 2060 6GB
+- **Power Supply:** Thermaltake 650W
+- **Case:** Open mining case
+- **Operating System:** Ubuntu Server 24.04 Headless
+
+#### Use Case
+The Web-Server hosts an Onion site that provides free temporary Ubuntu containers that users can access and shell into with temporary credentials. Each container spawns per user, and when the user leaves, the container is deleted. This server also uses OpenWeb UI and Docker to host free AI on the Onion site. The Onion site also offers tech support and is continuously updated. It is connected to the Cisco Nexus 3048 via 10Gb fiber while maintaining Ethernet for Wake-on-LAN (WoL).
+
 ### Super Pi (Main Server)
 
 #### Specifications
