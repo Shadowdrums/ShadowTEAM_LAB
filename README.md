@@ -135,7 +135,7 @@ This server is dedicated to developing AI and other software that requires GPU a
 - **CPU:** 2x Intel Xeon E5-2697-V2 (12 cores, 24 threads each), combined total: 24 cores 48 threads
 - **RAM:** 256GB DDR3 LRDIMM ECC Samsung (8x16GB, 1866MHz)
 - **Storage:** 1x 2TB HDD, 4x 500GB SATA SSDs in RAID 10
-- **GPU:** Nvidia Quadro M4000 (8GB)
+- **GPU:** Nvidia RTX 2060 (6GB)
 - **Expansion:** 1Gb  dual port ethernet PCI-e expansion card
 - **Expansion 2:** Intel X520-SR2 10Gb dual port E10G42BFSR
 - **Power Supply:** 750W
@@ -152,7 +152,7 @@ This server is dedicated to Active Directory (AD) Domain Controller (DC) pentest
 - **RAM:** 32GB Corsair Vengeance LPX DDR4 2400MHz (4x8GB)
 - **Storage:** 1TB 2.5" HDD
 - **GPU1:** Nvidia GTX 1060 6GB
-- **GPU2:** Nvidia RTX 2060 6GB
+- **GPU2:** Nvidia Quadro M4000 8GB
 - **Expansion:** Intel X520-SR2 10Gb dual port E10G42BFSR
 - **Power Supply:** Thermaltake 650W
 - **Case:** Open mining case
